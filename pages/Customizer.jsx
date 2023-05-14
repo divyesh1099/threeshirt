@@ -31,7 +31,7 @@ const Customizer = () => {
       case 'aiPicker': 
         return <AIPicker />
       default:
-        return <AIPicker />
+        return null
     }
   }
   return (
