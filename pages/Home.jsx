@@ -23,7 +23,7 @@ const Home = () => {
               Create your unique and exclusive shirt with our brand-new 3D customization tool. 
               <strong>Unlash your imagination</strong>{" "} and define your own style.
             </p>
-            <CustomButton type="filled" title="Test Button" customStyles="w-fit px-4 py-2.5 font-bold text-sm" handleClick={()=>state.intro = false} />
+            <CustomButton type="filled" title="Customize" customStyles="w-fit px-4 py-2.5 font-bold text-sm" handleClick={()=>state.intro = false} />
           </motion.div>
         </motion.section>
       )}
